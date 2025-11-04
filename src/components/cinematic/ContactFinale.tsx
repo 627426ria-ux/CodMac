@@ -118,7 +118,7 @@ const ContactFinale = () => {
               >
                 <label className="text-sm font-medium">Your Name</label>
                 <Input
-                  placeholder="John Doe"
+                  placeholder="your name"
                   value={formData.name}
                   onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                   className="bg-background/50 border-muted focus:border-primary transition-colors"
@@ -132,7 +132,7 @@ const ContactFinale = () => {
                 <label className="text-sm font-medium">Email Address</label>
                 <Input
                   type="email"
-                  placeholder="john@example.com"
+                  placeholder="yourname@example.com"
                   value={formData.email}
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                   className="bg-background/50 border-muted focus:border-primary transition-colors"
@@ -213,10 +213,10 @@ const ContactFinale = () => {
           className="text-center mt-16 space-y-4"
         >
           <h3 className="text-2xl font-bold text-gradient">
-            Shells & Scales Exports Web Studio
+            CodMac Web Studio
           </h3>
           <p className="text-muted-foreground">
-            Crafting cinematic digital experiences since 2024
+            
           </p>
           <p className="text-sm text-muted-foreground">
             © {new Date().getFullYear()} All rights reserved

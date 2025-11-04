@@ -327,33 +327,10 @@ const Contact = () => {
                 </Button>
               </form>
 
-              {/* Additional Info */}
-              <div className="mt-12 pt-12 border-t border-muted grid md:grid-cols-2 gap-8">
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-amber-500/20 to-orange-500/20 flex items-center justify-center shrink-0">
-                    <Clock className="w-6 h-6 text-amber-500" />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold mb-2">Business Hours</h3>
-                    <p className="text-sm text-muted-foreground">Monday - Saturday</p>
-                    <p className="text-sm text-muted-foreground">9:00 AM - 6:00 PM IST</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-teal-500/20 to-emerald-500/20 flex items-center justify-center shrink-0">
-                    <MapPin className="w-6 h-6 text-teal-500" />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold mb-2">Location</h3>
-                    <p className="text-sm text-muted-foreground">Kerala, India</p>
-                    <p className="text-sm text-muted-foreground">Serving clients worldwide</p>
-                  </div>
-                </div>
-              </div>
+              
 
               {/* Social Links */}
-              <div className="mt-12 pt-8 border-t border-muted">
+              {/* <div className="mt-12 pt-8 border-t border-muted">
                 <p className="text-center text-sm text-muted-foreground mb-6">
                   Or connect with us on social media
                 </p>
@@ -377,7 +354,7 @@ const Contact = () => {
                     </motion.a>
                   ))}
                 </div>
-              </div>
+              </div> */}
             </motion.div>
           </div>
         </section>

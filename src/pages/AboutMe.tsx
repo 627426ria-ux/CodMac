@@ -28,7 +28,7 @@ const AboutUs = () => {
     },
     { 
       icon: Sparkles, 
-      name: "UI/UX Design", 
+      name: "Web Design", 
       year: "2022",
       description: "Evolved into crafting pixel-perfect, user-centric interfaces with Figma, Adobe XD, and design systems that prioritize both beauty and usability.",
       color: "from-purple-500 to-pink-500", 
@@ -171,7 +171,7 @@ const AboutUs = () => {
                   transition={{ delay: 0.7 }}
                   className="text-xl md:text-2xl text-muted-foreground leading-relaxed"
                 >
-                  We’re CODMAC, a passionate web design agency dedicated to creating immersive digital experiences. We specialize in crafting high-performance websites that combine intuitive design, smooth interactions, and cutting-edge technology.
+                  We’re CODMAC, a creative web  studio dedicated to creating immersive digital experiences. We specialize in crafting high-performance websites that combine intuitive design, smooth interactions, and cutting-edge technology.
                 </motion.p>
 
                 
