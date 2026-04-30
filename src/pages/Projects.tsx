@@ -427,11 +427,7 @@ const Projects = () => {
             >
               {[
                 { value: "6+", label: "Projects Delivered" },
-<<<<<<< HEAD
                 { value: "5+", label: "Agency Collaboration" },
-=======
-                { value: "", label: "Global Exposure" },
->>>>>>> a1c02cb57e83b2df0b4ec9c678930a2e2c861321
                 { value: "100%", label: "Client Satisfaction" },
               ].map((stat, i) => (
                 <div key={i} className="text-center">

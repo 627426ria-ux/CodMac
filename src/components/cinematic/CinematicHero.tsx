@@ -202,12 +202,6 @@ const CinematicHero = () => {
               />
             </motion.div>
 
-<<<<<<< HEAD
-=======
-            {/* Tagline */}
-            
-
->>>>>>> a1c02cb57e83b2df0b4ec9c678930a2e2c861321
             {/* Description */}
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -253,13 +247,10 @@ const CinematicHero = () => {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="px-8 md:px-10 py-3 md:py-4 rounded-full glass-effect white-border font-semibold text-base md:text-lg white-text"
-<<<<<<< HEAD
                 onClick={() => {
                   const section = document.getElementById('projects');
                   if (section) section.scrollIntoView({ behavior: 'smooth' });
                 }}
-=======
->>>>>>> a1c02cb57e83b2df0b4ec9c678930a2e2c861321
               >
                 View Our Work
               </motion.button>
