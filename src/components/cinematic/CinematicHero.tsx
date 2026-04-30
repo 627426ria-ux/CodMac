@@ -248,8 +248,7 @@ const CinematicHero = () => {
                 whileTap={{ scale: 0.95 }}
                 className="px-8 md:px-10 py-3 md:py-4 rounded-full glass-effect white-border font-semibold text-base md:text-lg white-text"
                 onClick={() => {
-                  const section = document.getElementById('projects');
-                  if (section) section.scrollIntoView({ behavior: 'smooth' });
+                  window.location.href = '/projects';
                 }}
               >
                 View Our Work
